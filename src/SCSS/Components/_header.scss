@@ -1,0 +1,52 @@
+.header {
+  color: white;
+
+  h1 {
+    margin-top: 200px;
+  }
+
+  p {
+    font-size: larger;
+  }
+
+  background-image: url("../../Assets/pexels-ivan-samkov-4162581.jpg");
+  background-position: left;
+  background-size: cover;
+  height: 95vh;
+  width: 100%;
+}
+
+.signupBtn {
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 13px;
+  gap: 9px;
+  color: white;
+  background: #1DB954;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.212);
+  font-weight: 600;
+}
+
+.arrow {
+  position: absolute;
+  right: 7.5px;
+  background-color: rgb(255, 255, 255);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  transition: all .5s ease;
+}
+
+.signupBtn:hover .arrow {
+  width: calc(120px - (7.5px)*2);
+}
